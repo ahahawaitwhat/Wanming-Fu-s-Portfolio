@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#nav-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
+  background-color: pink;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-list {
+  padding: 10px 20px 10px 20px;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  border-right: 1px solid rgb(155, 51, 86);
+  border-left: 1px solid rgb(155, 51, 86);
+  justify-content: center;
+  color: rgb(109, 2, 37);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#nav-list-first {
+  border-left: none;
+}
+
+#nav-list-last {
+  border-right: none;
+}
